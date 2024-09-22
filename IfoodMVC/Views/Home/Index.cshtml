@@ -1,8 +1,44 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<fieldset>
+    <legend>Restaurant</legend>
+    <div class="row">
+        <div class="col-xl-4">Customer:<input type="text" class="form-control"/></div>
+        <div class="col-xl-4"> Payment Type:</div>
+        <select id="paymenyType">
+            <option> Choose Payment Options</option>
+        </select>
+        <div class="col-xl-4">Total:<input type="text" class="form-control" /></div>
+    </div>
+</fieldset>
+<fieldset>
+    <legend>Restaurant Items</legend>
+    <div class="row">
+        <div class="col-xl-4">Item Name:<input type="text" class="form-control" /></div>
+        <div class="col-xl-4"> Unit Price:<input type="text" class="form-control" /></div>
+        <div class="col-xl-4">Quantity:<input type="text" class="form-control" /></div>
+    </div>
+    <div class="row">
+        <div class="col-xl-4">Discount:<input type="text" class="form-control" /></div>
+        <div class="col-xl-4"> Total:<input type="text" class="form-control" /></div>
+        <div class="col-xl-4">AddToList:<input type="submit" /></div>
+    </div>
+</fieldset>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+ 
+
+    <fieldset>
+        <legend>Restaurant Items</legend>
+        <div class="row">
+            <table class="table-striped">
+                <tr>
+                    <td>Item Name:</td>
+                    <td>Unit Price:</td>
+                    <td>Quantity:</td>
+                    <td>Discount:</td>
+                    <td>Total:</td>
+                    <td>Action:</td>
+                </tr>
+
+            </table>
+        </<div>
+
+        </fieldset>

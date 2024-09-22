@@ -21,6 +21,10 @@ body {
   margin-bottom: 60px;
   font-family: Roboto
 }
+.text-pink{
+    color:#ff1448 !important;
+
+}
 
 /*tab navagation*/
 .login-logout-card .card-header{
